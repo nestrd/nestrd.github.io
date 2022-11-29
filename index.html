@@ -1,6 +1,8 @@
 <!DOCTYPE HTML><html lang="en"><head><meta charset="UTF-8"/>
-	<title>nest R&amp;D</title>
-	<meta name="csrf_token" value="IngzRzNUcEp2ZVRnZGJoUiBVUiBCVVRUIDN4c0N3ZHFOUlJvT3BWcSI=.nqA106wLm+jOU+UqRjs5FPZRKfQ=" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nest R&amp;D</title>
+<meta name="csrf_token" value="IngzRzNUcEp2ZVRnZGJoUiBVUiBCVVRUIDN4c0N3ZHFOUlJvT3BWcSI=.nqA106wLm+jOU+UqRjs5FPZRKfQ=" />
 	<meta property="og:site_name" content="nest R&D"/>
 	<meta property="twitter:account_id" content="4503599627724030"/>
 	<meta content="users/777613" name="itch:path"/>
@@ -74,7 +76,20 @@
 			color:rgba(255, 255, 255, 0.75)}
 		.game_grid_widget .game_cell .game_platform,.game_grid_widget .game_cell .game_genre{
 			color:rgba(255, 255, 255, 0.5)}
-</style></head>
+		.filterDiv{
+			float:left;
+			display: none;
+		}
+		.show{
+			display: block;
+		}
+		.container{
+			overflow: hidden;
+		}
+		
+</style>
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
 	
 	<body class="locale_en responsive no_theme_toggle" data-host="nest R&D" data-page_name="user">
 		<div class="user_page_wrap">
@@ -105,19 +120,29 @@
 
 						</div>
 						<div class="game_cell_data">
-							
 							<div class="game_title">
-								<class="game_text" data-action="game_grid" style="font-size: 16pt; text-shadow: 0px 0px 2px black;" >lis miller, game designer & researcher</a>
+								<class="game_text" data-action="game_grid" style="font-size: 16pt; text-shadow: 0px 0px 2px black;" >lis miller, game designer &amp; researcher</class>
 							</div>
 							<div class="game_text" style="text-shadow: 0px 0px 2px black;">Hello! I'm a game designer and undergraduate student currently studying Level 6 BSc Computer Games Design at Staffordshire University, England. My interest is in experimental gameplay and encouraging fun in playspaces; both virtual and physical, by the means of standard consoles and VR/XR (Extended Reality) respectively.
 								</br></br>
 							My main focus within traditional games is in player mechanics and creating interesting and fresh gameplay in existing genres, such as platformers, puzzlers and adventure games. Core system, combat and environmental design are secondary interests that I take the opportunity to consider. My speciality lies in Unity and Unreal Engine 5, though I have plenty of experience using 3DS Max, Adobe CC and Substance Designer/Painter. 
-								</br></br>
+								<br><br>
 							Currently, I am working on Companions Plus, a device-driven mobile game to improve the relationship between pet and owner. Side projects include a feature-complete version of the GMTK2021 prototype Fellow Bubs and a card-based RPG named Toupeu.</div>
-							</div></br>
-		</div></br>
-			
-		
+							</div><br>
+		</div>
+	
+<div class="dropdown show"> 
+	<a class="link_group for_nil" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float: right;"> filter ▼ </a>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">show all</a>
+		    <a class="dropdown-item" href="#">game design</a>
+		    <a class="dropdown-item" href="#">research</a> 
+			<a class="dropdown-item" href="#">modelling &amp; art</a>
+			<a class="dropdown-item" href="#">music</a>
+		    <a class="dropdown-item" href="#">fonts</a> 
+	</div>
+</div><br>
+
 			<div class="column game_column">
 			  <div class="game_grid_widget user_game_grid">
 				  
@@ -240,7 +265,11 @@
 		      </div>
 		  </div>
 		</div></div>
-</div><script type="text/javascript">I.user_page = new I.UserPage('#user_page_39437', {"user_id":777613});</script>
+</div>
+		  <script src="js/jquery-3.4.1.min.js"></script>
+		  <script src="js/popper.min.js"></script>
+			<script src="js/bootstrap-4.4.1.js"></script>
+<script type="text/javascript">I.user_page = new I.UserPage('#user_page_39437', {"user_id":777613});</script>
 	
 <div class="footer"><div class="footer_inner">
 	<a>© Lis Miller. All rights reserved</a>
