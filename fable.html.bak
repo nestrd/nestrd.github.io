@@ -99,18 +99,14 @@
     </style>
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
   </head>
-  <body class="locale_en responsive no_theme_toggle" data-host="nest R&amp;D" data-page_name="user"
-
-    style="      background-color: #352f33; height:100%">
+  <body class="locale_en responsive no_theme_toggle" data-host="nest R&amp;D" data-page_name="user"
+    style="              background-color: #352f33; height:100%">
     <div class="user_page_wrap">
-      <div class="user_page page_widget mode_grid has_banner mode_collection_grid"
-
+      <div class="user_page page_widget mode_grid has_banner mode_collection_grid"
         id="user_page_39437">
         <div class="header" id="profile_header">
-          <div class="image_header"> <img src="https://img.itch.zone/aW1nLzEwMzUyODM0LnBuZw==/original/zUPGZw.png"
-
-              alt="nest - research &amp; development" class="profile_banner" height="73"
-
+          <div class="image_header"> <img src="https://img.itch.zone/aW1nLzEwMzUyODM0LnBuZw==/original/zUPGZw.png"
+              alt="nest - research &amp; development" class="profile_banner" height="73"
               width="960"> </div>
           <div class="inner_column text_header">
             <h1>nest R&amp;D</h1>
@@ -124,8 +120,7 @@
                   <span class="link_group for_nil"><a rel="me" href="https://nestrd.github.io/">home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</span>
                   &nbsp;&nbsp; <span class="link_group for_nil"><a rel="me" href="https://nest.itch.io/">itch.io</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;</span>
                   &nbsp;&nbsp; <span class="link_group for_nil"><a rel="me" href="https://twitter.com/liswifi">twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    |&nbsp; &nbsp;&nbsp;</span> <span class="link_group for_nil"><a
-
+                    |&nbsp; &nbsp;&nbsp;</span> <span class="link_group for_nil"><a
                       rel="me" href="https://lismiller.bandcamp.com/">bandcamp</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
                   &nbsp; &nbsp; <span class="link_group for_nil"><a rel="me" href="https://www.linkedin.com/in/nestrd/">linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
                   &nbsp;&nbsp; <span class="link_group for_nil"><a rel="me" href="ToriMillerResume.pdf">résumé</a>&nbsp;&nbsp;</span>
@@ -135,36 +130,20 @@
             <div class="column game_column" style="background-color: #191a19; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 12px; margin-bottom: 16px; border-radius: 10px;">
               <div class="game_grid_widget user_game_grid"> </div>
               <div class="game_cell_data">
-                <div class="game_title">Fable (Playground Games, 2027)</div>
+                <div class="game_title"><span class="game_text" data-action="game_grid"
+                    style="font-size: 16pt; text-shadow: 0px 0px 2px black;">Fable
+                    (Playground Games, 2027)</span></div>
                 <div class="game_text" style="text-shadow: 0px 0px 2px black;">
-                  <p>About this project.</p>
+                  <p>About Fable itself.</p>
+                  <p>What did I do during Fable's development(no NDA info!!)?</p>
                 </div>
               </div>
             </div>
-            <div style="width:100%;"> <img src="companionplus-devicecomms.png"
-
-                style="width: 100%; height: auto; border-radius: 10px;">
+            <div style="width:100%;"> <img src="fablescreencap.png" style="width: 100%; height: auto; border-radius: 10px;">
               <div class="game_cell_data">
                 <div class="game_genre" style="color:rgba(255, 255, 255, 0.5);
                                                padding-top:6px; padding-bottom:12px;                                               font-size:14px; text-align:center;">
-                  About this image</div>
-              </div>
-            </div>
-            <div class="column game_column" style="background-color: #191a19;
-                                                   padding-left: 10px; padding-right: 10px;                                                   padding-top: 10px; padding-bottom: 12px;                                                   margin-bottom: 16px; border-radius: 10px;">
-              <div class="game_cell_data">
-                <div class="game_text" style="text-shadow: 0px 0px 2px black;">
-                  <p>About this project.</p>
-                </div>
-              </div>
-            </div>
-            <div style="width:100%;"> <img src="companionplus-devicecomms.png"
-
-                style="width: 100%; height: auto; border-radius: 10px;">
-              <div class="game_cell_data">
-                <div class="game_genre" style="color:rgba(255, 255, 255, 0.5);
-                                               padding-top:6px; padding-bottom:12px;                                               font-size:14px; text-align:center;">
-                  About this image</div>
+                  Sourced from the Xbox Developer_Direct 2026.</div>
               </div>
             </div>
             <div class="column game_column" style="background-color: #191a19;
@@ -172,7 +151,10 @@
               <div class="game_cell_data">
                 <div class="game_text" style="text-shadow: 0px 0px 2px black;
                                               "> Project links. </div>
-              </div>
+                <a href="https://www.fablethegame.com/" style="color:#FFFFFF;">Fable
+                  official website</a><br>
+                <a href="https://store.steampowered.com/app/2769570/Fable/" style="color:#FFFFFF;">Fable
+                  on Steam</a> </div>
             </div>
           </div>
         </div>
