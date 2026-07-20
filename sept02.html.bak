@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>sept02</title>
+    <style type="text/css" id="user_theme">
+      body{
+        background-color:#8b8c86;
+      }
+        .user_page{
+          --font_family: Lato;
+          --link_color: #d7a87a;
+          --gray_back: #957cc0;
+          color:#ffffff;font-size:100%;
+          background-color:#8b8c86;
+          font-family:Lato,Lato,LatoExtended,sans-serif;
+          display: flex-center;
+  				justify-content: center;
+  				align-items: center;
+        }
+    </style>
+  </head>
+  <body style=" text-align:center;">
+    <audio controls="controls" autoplay="autoplay" loop="true" hidden="true">
+			<source src="/sound/sept02.mp3" type="audio/mpeg">
+    </audio>
+    <div class="user_page">
+      <p> i had this sinking feeling i couldn't forget </p>
+      <p> their hands put on me i can't wash off that dirt </p>
+      <p> did they know it would send me packing </p>
+      <p> this is all i'll leave, don't come looking for me </p>
+    </div>
+  </body>
+</html>
